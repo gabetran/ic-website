@@ -9,7 +9,7 @@ body {
     background-attachment: fixed;
 }
 
-header {
+.purplestrip {
     background-color: #4B2E83;
     color: white;
     height: 90px;
@@ -19,9 +19,11 @@ header {
     border-bottom: 5px;
     border-bottom-color: #391C73;
     border-bottom-style: solid;
-    /*box-shadow: 0px 0px 10px 0px #391C73;*/
+    box-shadow: 0px 2px 5px 0px #391C73;
 
 }
+
+
 
 article {
     background-color: white;
