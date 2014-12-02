@@ -1,0 +1,45 @@
+/*for staff images*/
+.card img {
+    max-height: 150px;
+    max-width: 150px;
+    margin: 5px;
+}
+
+.card .details {
+    padding-left: 170px;
+}
+
+.card:hover{
+    background-color: #fff;
+}
+
+.card .name,
+.card .title,
+.card p {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+}
+
+.card .name {
+    font-size: 20px;
+}
+
+.card .title {
+    font-size: 18px;
+}
+
+.card .department {
+    font-size: 16px;
+}
+
+.btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+    color: #0e83cd;
+    background: #fff;
+}
