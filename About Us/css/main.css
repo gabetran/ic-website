@@ -19,7 +19,6 @@ header {
     border-bottom: 5px;
     border-bottom-color: #391C73;
     border-bottom-style: solid;
-    /*box-shadow: 0px 0px 10px 0px #391C73;*/
 
 }
 
@@ -27,8 +26,9 @@ article {
     background-color: white;
     color: black;
     opacity: 0.95;
-    margin-left: 16%;
-    margin-right: 16%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
     font-family:'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
     font-weight: 300;
 }
@@ -55,7 +55,8 @@ footer {
 }
 
 
-/* for the nav bar */
+/*Navigation Bar*/
+
 #nav {
     background-color: #E9E9E9;
 }
@@ -78,7 +79,7 @@ footer {
     color: #F2F2F2;
 }
 
-#nav ul li a,visited {
+#nav ul li a, a:visited {
     color: #6700A3;
     display: block;
     padding: 15px;
@@ -88,7 +89,6 @@ footer {
 #nav ul li a:hover {
     color: #b7a57a;
     background-color: white;
-    text-decoration: none;
 }
 
 #nav ul li:hover ul {
@@ -98,6 +98,7 @@ footer {
 #nav ul ul {
     display: none;
     position: absolute;
+    background-color: white;
 }
 
 #nav ul ul li{
@@ -106,13 +107,40 @@ footer {
 
 }
 
-#nav ul ul li:hover{
-    background-color: white;
-
-}
-
-#nav ul li ul {
-    border-top: 5px;
+/*creates a shadow around dropdown & a solid purple bar on top of dropdown*/
+#nav ul li ul{
+    box-shadow: 0px 1px 2px 0px #391C73;
+    border-top: 2px;
     border-top-color: #391C73;
     border-top-style: solid; 
+}
+
+#nav ul ul li{
+    background-color: white; 
+    font-style: bold; 
+    text-align: center;
+    width: 130px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 10px;
+}
+
+/*makes a solid gray bar every li item in drop down except last item*/
+#nav ul li ul li:not(:last-child){
+    border-bottom-width: 2px;
+    border-bottom-color: #E9E9E9;
+    border-bottom-style: solid;
+}
+
+/*makes solid gold bar on right when li item is hovered in dropdown*/
+#nav ul li ul li a:hover {
+    margin-left: 3px;
+    border-right-style: solid;
+    border-right-color: #b7a57a;
+    border-right-width: 3px;
 }

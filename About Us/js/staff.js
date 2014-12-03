@@ -2,7 +2,7 @@ var icStaff = [
 	{
 		firstName: 'Therese',
 		lastName: 'Mar',
-		title: 'Math & Statistics Instructor',
+		title: 'Administrator',
 		office: 'Director of the Instructional Center',
 		department: 'Administration',
 		picUrl: 'img/therese2.jpg'
@@ -53,7 +53,7 @@ var icStaff = [
 		firstName: 'Chris',
 		lastName: 'Skov',
 		title: 'Instructor',
-		department: 'Math',
+		department: 'Math', 
 		picUrl: 'img/chris2.jpg'
 	},
 	{

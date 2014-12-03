@@ -1,16 +1,44 @@
-/*for staff images*/
+
+#sort {
+    padding-bottom: 1em;
+}
+.sort-ui, .filter-ui {
+    margin-bottom: 1em;
+}
+
+.cards {
+    margin: 0;
+    padding: 0;
+}
+
+
+.card {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 0.5em;
+    clear: both;
+    height: 170px;
+    position: relative;
+    padding: 10px;
+}
+
+.card:hover {
+    border-right-style: solid;
+    border-right-color: #b7a57a;
+    border-right-width: 3px;
+    background-color: #E6E6E6;
+}
+
 .card img {
-    max-height: 150px;
+    float: left;
+    padding: 2px;
     max-width: 150px;
-    margin: 5px;
+    max-height: 150px;
+    margin-right: 10px;
 }
 
 .card .details {
     padding-left: 170px;
-}
-
-.card:hover{
-    background-color: #fff;
 }
 
 .card .name,
@@ -20,12 +48,12 @@
     margin-bottom: 0.25em;
 }
 
-.card .name {
-    font-size: 20px;
+.card .title {
+    font-size: 150%;
 }
 
-.card .title {
-    font-size: 18px;
+.card .department {
+    font-size: 125%;
 }
 
 .card .department {
